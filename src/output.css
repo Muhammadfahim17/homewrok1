@@ -554,8 +554,120 @@ video {
   display: none;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[30vh\] {
+  height: 30vh;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
+.h-\[50\%\] {
+  height: 50%;
+}
+
+.h-\[40vh\] {
+  height: 40vh;
+}
+
+.h-\[20vh\] {
+  height: 20vh;
+}
+
+.h-\[0vh\] {
+  height: 0vh;
+}
+
+.h-\[25vh\] {
+  height: 25vh;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[750px\] {
+  width: 750px;
+}
+
+.w-\[700px\] {
+  width: 700px;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-between {
@@ -564,4 +676,237 @@ video {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.gap-\[15px\] {
+  gap: 15px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[25px\] {
+  gap: 25px;
+}
+
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#212731\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 39 49 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#D7B18D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(215 177 141 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#FFFFFF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F4F4F5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 244 245 / var(--tw-bg-opacity, 1));
+}
+
+.p-\[40px\] {
+  padding: 40px;
+}
+
+.p-\[25px\] {
+  padding: 25px;
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.px-\[50px\] {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.py-\[25px\] {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[5px\] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.px-\[35px\] {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-\[400\] {
+  font-weight: 400;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:w-\[65\%\] {
+    width: 65%;
+  }
+
+  .sm\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .sm\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .sm\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .sm\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .sm\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:px-\[60px\] {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .sm\:text-start {
+    text-align: start;
+  }
+
+  .sm\:text-\[30px\] {
+    font-size: 30px;
+  }
+
+  .sm\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .sm\:font-\[400\] {
+    font-weight: 400;
+  }
+
+  .sm\:font-\[500\] {
+    font-weight: 500;
+  }
+
+  .sm\:font-bold {
+    font-weight: 700;
+  }
 }
