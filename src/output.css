@@ -690,6 +690,18 @@ video {
   margin-bottom: 80px;
 }
 
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
 .flex {
   display: flex;
 }
@@ -736,6 +748,14 @@ video {
 
 .w-\[90\] {
   width: 90;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[35\%\] {
+  width: 35%;
 }
 
 .flex-col {
@@ -800,6 +820,10 @@ video {
 
 .gap-\[5px\] {
   gap: 5px;
+}
+
+.gap-\[22px\] {
+  gap: 22px;
 }
 
 .rounded-xl {
@@ -1041,6 +1065,11 @@ video {
   color: 25o;
 }
 
+.text-\[\#A4AAB6\] {
+  --tw-text-opacity: 1;
+  color: rgb(164 170 182 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 640px) {
   .sm\:m-auto {
     margin: auto;
@@ -1052,6 +1081,26 @@ video {
 
   .sm\:mb-\[80px\] {
     margin-bottom: 80px;
+  }
+
+  .sm\:ml-\[\] {
+    margin-left: ;
+  }
+
+  .sm\:ml-\[80px\] {
+    margin-left: 80px;
+  }
+
+  .sm\:ml-\[180px\] {
+    margin-left: 180px;
+  }
+
+  .sm\:ml-\[250px\] {
+    margin-left: 250px;
+  }
+
+  .sm\:ml-\[100px\] {
+    margin-left: 100px;
   }
 
   .sm\:block {
@@ -1086,12 +1135,36 @@ video {
     width: 90%;
   }
 
+  .sm\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .sm\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .sm\:w-\[\] {
+    width: ;
+  }
+
+  .sm\:w-\[35\%\] {
+    width: 35%;
+  }
+
+  .sm\:w-\[450px\] {
+    width: 450px;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
 
   .sm\:items-center {
     align-items: center;
+  }
+
+  .sm\:justify-around {
+    justify-content: space-around;
   }
 
   .sm\:gap-\[40px\] {
@@ -1106,6 +1179,22 @@ video {
     gap: 45px;
   }
 
+  .sm\:gap-\[80px\] {
+    gap: 80px;
+  }
+
+  .sm\:gap-\[250px\] {
+    gap: 250px;
+  }
+
+  .sm\:gap-\[200px\] {
+    gap: 200px;
+  }
+
+  .sm\:gap-\[180px\] {
+    gap: 180px;
+  }
+
   .sm\:px-\[15px\] {
     padding-left: 15px;
     padding-right: 15px;
@@ -1114,6 +1203,16 @@ video {
   .sm\:px-\[60px\] {
     padding-left: 60px;
     padding-right: 60px;
+  }
+
+  .sm\:px-\[50px\] {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .sm\:px-\[30px\] {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .sm\:text-start {
@@ -1132,6 +1231,18 @@ video {
     font-size: 25px;
   }
 
+  .sm\:text-\[35px\] {
+    font-size: 35px;
+  }
+
+  .sm\:text-\[45px\] {
+    font-size: 45px;
+  }
+
+  .sm\:text-\[55px\] {
+    font-size: 55px;
+  }
+
   .sm\:font-\[400\] {
     font-weight: 400;
   }
@@ -1147,5 +1258,9 @@ video {
   .sm\:text-\[\#848C9A\] {
     --tw-text-opacity: 1;
     color: rgb(132 140 154 / var(--tw-text-opacity, 1));
+  }
+
+  .sm\:text-\[\] {
+    color: ;
   }
 }
